@@ -10,7 +10,7 @@
 int main(void) {
 	usartInit();
 	IPstackInit();
-	printf("Hello from main\r");
+	printf("Hello world from main\r");
 	while (1) {
 		IPstackIdle();
 	}
